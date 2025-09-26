@@ -50,11 +50,13 @@ export default function TelaLed(){
                 <button onClick={() => enviarComando('DESLIGADO')}  className="px-6 py-3 bg-red-500 hover:bg-red-600
                  text-white font-semibold rounded-lg transition">Desligar</button>
             </div>
-            <div style={
-                {display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '20px'}}>
-            <h5>Controle</h5>
-                <a href="https://wokwi.com/projects/438628959676561409" className="bg-blue-400 mt-4 p-3 text-white w-50 flex text-center rounded xl-8">Acessar WokWi</a>
-                </div>       
+
+             <div className="flex-column p-1 mt-4">
+                <p className="text-center">Acesse o link do projeto do Wokwi</p>
+                <div className="flex justify-center">
+                    <a className="text-center text-3x1 font-bold text-white bg-blue-400 rounded p-3" href="https://wokwi.com/projects/438623469640140801" target="_blank">Controle Led</a>
+                </div>
             </div>
+        </div>
     )
 }

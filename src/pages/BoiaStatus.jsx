@@ -36,12 +36,13 @@ export default function BoiaStatus(){
                     ) : (<span className="text-blue-600">BAIXO</span>) 
                     }
                 </p>
-                <div style={
-                {display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '20px'}}>
-            <h5>Controle</h5>
-                <a href="https://wokwi.com/projects/439347413782323201" className="bg-blue-400 mt-4 p-3 text-white w-50 flex text-center rounded xl-8">Acessar WokWi</a>
+
+                <div className="flex-column p-1 mt-4">
+                <p className="text-center">Acesse o link do projeto do Wokwi</p>
+                <div className="flex justify-center">
+                    <a className="text-center text-3x1 font-bold text-white bg-blue-400 rounded p-3" href="https://wokwi.com/projects/439347432074740737" target="_blank">Controle Boia</a>
                 </div>
             </div>
-            
+            </div>
         )
 }
